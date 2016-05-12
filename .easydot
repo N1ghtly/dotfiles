@@ -1,2 +1,3 @@
-.emacs|/home/n1ghtly/.emacs
-i3config|/home/n1ghtly/.config/i3/config
+.bashrc|/home/n1ghtly/.bashrc
+i3config|$HOME.config/i3/config
+.emacs|$HOME.emacs
