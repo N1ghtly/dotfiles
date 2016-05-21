@@ -5,14 +5,14 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
- '(custom-enabled-themes (quote (tsdh-dark))))
+ '(custom-enabled-themes (quote (tsdh-dark)))
+ '(inhibit-startup-screen t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-
-)
+ )
 
 (setq backup-directory-alist `(("." . "~/.saves")))
 
@@ -31,3 +31,16 @@
 (elpy-enable)
 
 
+(setq org-todo-keyword-faces
+      '(("TODO" . "red") ("STARTED" . "yellow")))
+
+(defun my-org-clocktable-indent-string (level)
+  (if (= level 1)
+      ""
+    (let ((str "\\"))
+      (while (> level 2)
+        (setq level (1- level)
+              str (concat str "--")))
+      (concat str "-> "))))
+
+(advice-add 'org-clocktable-indent-string :override #'my-org-clocktable-indent-string)
