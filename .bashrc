@@ -232,4 +232,4 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-eval $(thefuck --alias)
+
