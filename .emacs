@@ -44,3 +44,7 @@
       (concat str "-> "))))
 
 (advice-add 'org-clocktable-indent-string :override #'my-org-clocktable-indent-string)
+
+(global-set-key (kbd "M-o") 'other-window)
+
+(windmove-default-keybindings)
