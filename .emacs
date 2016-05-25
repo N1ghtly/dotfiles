@@ -48,3 +48,5 @@
 (global-set-key (kbd "M-o") 'other-window)
 
 (windmove-default-keybindings)
+
+(global-unset-key (kbd "M-f"))
