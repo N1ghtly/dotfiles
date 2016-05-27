@@ -14,6 +14,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(setq org-hierarchical-todo-statistics nil)
+
 (setq backup-directory-alist `(("." . "~/.saves")))
 
 (setq backup-by-copying t)

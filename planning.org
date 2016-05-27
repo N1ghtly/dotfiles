@@ -1,10 +1,10 @@
 #+BEGIN: clocktable :maxlevel 3 :emphasize nil :scope file
-#+CAPTION: Clock summary at [2016-05-27 Fre 17:11]
+#+CAPTION: Clock summary at [2016-05-27 Fre 17:15]
 | Headline                              |   Time |      |      |
 |---------------------------------------+--------+------+------|
 | *Total time*                          | *3:38* |      |      |
 |---------------------------------------+--------+------+------|
-| Kansrekenen [40%]                     |   1:40 |      |      |
+| Kansrekenen [20%]                     |   1:40 |      |      |
 | \-> DONE Kansruimten                  |        | 1:40 |      |
 | \---> DONE Basisbegrippen             |        |      | 0:38 |
 | \---> DONE Voorwaardelijke kans en... |        |      | 1:02 |
@@ -15,7 +15,7 @@
 
 #+TODO: TODO STARTED | DONE
 
-* Kansrekenen [20%]
+* Kansrekenen [17%]
 ** DONE Kansruimten
 *** DONE Basisbegrippen
     CLOCK: [2016-05-27 Fre 14:52]--[2016-05-27 Fre 15:00] =>  0:08
@@ -23,8 +23,9 @@
 *** DONE Voorwaardelijke kans en onafhankelijkheid
     CLOCK: [2016-05-27 Fre 15:00]--[2016-05-27 Fre 15:32] =>  0:32
     CLOCK: [2016-05-26 Don 11:14]--[2016-05-26 Don 11:44] =>  0:30
-** TODO Stochastische veranderlijken
-*** TODO Types stochastische veranderlijken
+** STARTED Stochastische veranderlijken
+*** STARTED Types stochastische veranderlijken
+    CLOCK: [2016-05-27 Fre 17:17]
 *** TODO Momenten van een stochastische veranderlijke
 *** TODO Kentallen
 *** TODO Belangrijke verdelingen
