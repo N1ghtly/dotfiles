@@ -1,46 +1,49 @@
 #+BEGIN: clocktable :maxlevel 2 :emphasize nil :scope file
-#+CAPTION: Clock summary at [2016-05-26 Don 18:16]
-| Headline              |   Time |      |
-|-----------------------+--------+------|
-| *Total time*          | *2:58* |      |
-|-----------------------+--------+------|
-| Kansrekenen           |   1:00 |      |
-| \-> Kansruimten       |        | 1:00 |
-| Computer Networks     |   1:58 |      |
-| \-> Application layer |        | 1:01 |
-| \-> Transport layer   |        | 0:57 |
+#+CAPTION: Clock summary at [2016-05-27 Fre 14:51]
+| Headline                   |   Time |      |
+|----------------------------+--------+------|
+| *Total time*               | *2:58* |      |
+|----------------------------+--------+------|
+| Kansrekenen                |   1:00 |      |
+| \-> TODO Kansruimten       |        | 1:00 |
+| Computer Networks          |   1:58 |      |
+| \-> DONE Application layer |        | 1:01 |
+| \-> TODO Transport layer   |        | 0:57 |
 #+END: clocktable
 
+#+TODO: TODO | STARTED | DONE
 
 * Kansrekenen
 
-** Kansruimten
-*** Basisbegrippen
+** STARTED Kansruimten
+*** DONE Basisbegrippen
+    CLOCK: [2016-05-27 Fre 14:52]--[2016-05-27 Fre 15:00] =>  0:08
     CLOCK: [2016-05-26 Don 17:44]--[2016-05-26 Don 18:14] =>  0:30
-*** Voorwaardelijke kans en onafhankelijkheid
+*** STARTED Voorwaardelijke kans en onafhankelijkheid
+    CLOCK: [2016-05-27 Fre 15:00]
     CLOCK: [2016-05-26 Don 11:14]--[2016-05-26 Don 11:44] =>  0:30
-** Stochastische veranderlijken
-*** Types stochastische veranderlijken
-*** Momenten van een stochastische veranderlijke
-*** Kentallen
-*** Belangrijke verdelingen
-*** Transformatie van stochastische veranderlijken
-** Bivariate verdelingen
-*** Verdelin van een stochastisch koppel
-*** Karakteristieken van een stochastisch koppel
-*** Bivariate normale verdelingen
-** Benaderingen van verdelingen
-*** Limietstellingen
-*** Praktische benaderingen
-** Combinatieleer
+** TODO Stochastische veranderlijken
+*** TODO Types stochastische veranderlijken
+*** TODO Momenten van een stochastische veranderlijke
+*** TODO Kentallen
+*** TODO Belangrijke verdelingen
+*** TODO Transformatie van stochastische veranderlijken
+** TODO Bivariate verdelingen
+*** TODO Verdelin van een stochastisch koppel
+*** TODO Karakteristieken van een stochastisch koppel
+*** TODO Bivariate normale verdelingen
+** TODO Benaderingen van verdelingen
+*** TODO Limietstellingen
+*** TODO Praktische benaderingen
+** TODO Combinatieleer
 
 * Computer Networks
-** Application layer
+** DONE Application layer
    CLOCK: [2016-05-26 Don 17:14]--[2016-05-26 Don 18:15] =>  1:01
-** Transport layer
+** STARTED Transport layer
    CLOCK: [2016-05-26 Don 17:19]--[2016-05-26 Don 18:16] =>  0:57
-** Network layer
-** Data link layer
+** TODO Network layer
+** TODO Data link layer
 * Religie
 
 * Geschiedenis van de wetenschappen
