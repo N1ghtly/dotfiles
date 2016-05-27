@@ -1,26 +1,27 @@
-#+BEGIN: clocktable :maxlevel 2 :emphasize nil :scope file
-#+CAPTION: Clock summary at [2016-05-27 Fre 14:51]
-| Headline                   |   Time |      |
-|----------------------------+--------+------|
-| *Total time*               | *2:58* |      |
-|----------------------------+--------+------|
-| Kansrekenen                |   1:00 |      |
-| \-> TODO Kansruimten       |        | 1:00 |
-| Computer Networks          |   1:58 |      |
-| \-> DONE Application layer |        | 1:01 |
-| \-> TODO Transport layer   |        | 0:57 |
+#+BEGIN: clocktable :maxlevel 3 :emphasize nil :scope file
+#+CAPTION: Clock summary at [2016-05-27 Fre 17:11]
+| Headline                              |   Time |      |      |
+|---------------------------------------+--------+------+------|
+| *Total time*                          | *3:38* |      |      |
+|---------------------------------------+--------+------+------|
+| Kansrekenen [40%]                     |   1:40 |      |      |
+| \-> DONE Kansruimten                  |        | 1:40 |      |
+| \---> DONE Basisbegrippen             |        |      | 0:38 |
+| \---> DONE Voorwaardelijke kans en... |        |      | 1:02 |
+| Computer Networks [50%]               |   1:58 |      |      |
+| \-> DONE Application layer            |        | 1:01 |      |
+| \-> STARTED Transport layer           |        | 0:57 |      |
 #+END: clocktable
 
-#+TODO: TODO | STARTED | DONE
+#+TODO: TODO STARTED | DONE
 
-* Kansrekenen
-
-** STARTED Kansruimten
+* Kansrekenen [20%]
+** DONE Kansruimten
 *** DONE Basisbegrippen
     CLOCK: [2016-05-27 Fre 14:52]--[2016-05-27 Fre 15:00] =>  0:08
     CLOCK: [2016-05-26 Don 17:44]--[2016-05-26 Don 18:14] =>  0:30
-*** STARTED Voorwaardelijke kans en onafhankelijkheid
-    CLOCK: [2016-05-27 Fre 15:00]
+*** DONE Voorwaardelijke kans en onafhankelijkheid
+    CLOCK: [2016-05-27 Fre 15:00]--[2016-05-27 Fre 15:32] =>  0:32
     CLOCK: [2016-05-26 Don 11:14]--[2016-05-26 Don 11:44] =>  0:30
 ** TODO Stochastische veranderlijken
 *** TODO Types stochastische veranderlijken
@@ -37,13 +38,22 @@
 *** TODO Praktische benaderingen
 ** TODO Combinatieleer
 
-* Computer Networks
+* Computer Networks [50%]
 ** DONE Application layer
    CLOCK: [2016-05-26 Don 17:14]--[2016-05-26 Don 18:15] =>  1:01
 ** STARTED Transport layer
    CLOCK: [2016-05-26 Don 17:19]--[2016-05-26 Don 18:16] =>  0:57
 ** TODO Network layer
 ** TODO Data link layer
-* Religie
+* Religie [0%]
+** Slides 1
+** Slides 2
+** Slides 3
+** Slides 4
+** Slides 5
+** Slides 6
+** Slides 7
+** Slides 8
 
-* Geschiedenis van de wetenschappen
+* Geschiedenis van de wetenschappen [0%]
+** Cursus
