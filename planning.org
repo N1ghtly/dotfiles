@@ -1,21 +1,23 @@
 #+BEGIN: clocktable :maxlevel 3 :emphasize nil :scope file
-#+CAPTION: Clock summary at [2016-05-27 Fre 17:15]
-| Headline                              |   Time |      |      |
-|---------------------------------------+--------+------+------|
-| *Total time*                          | *3:38* |      |      |
-|---------------------------------------+--------+------+------|
-| Kansrekenen [20%]                     |   1:40 |      |      |
-| \-> DONE Kansruimten                  |        | 1:40 |      |
-| \---> DONE Basisbegrippen             |        |      | 0:38 |
-| \---> DONE Voorwaardelijke kans en... |        |      | 1:02 |
-| Computer Networks [50%]               |   1:58 |      |      |
-| \-> DONE Application layer            |        | 1:01 |      |
-| \-> STARTED Transport layer           |        | 0:57 |      |
+#+CAPTION: Clock summary at [2016-05-27 Fre 17:45]
+| Headline                                 |   Time |      |      |
+|------------------------------------------+--------+------+------|
+| *Total time*                             | *4:01* |      |      |
+|------------------------------------------+--------+------+------|
+| Kansrekenen [22%]                        |   2:03 |      |      |
+| \-> DONE Kansruimten                     |        | 1:40 |      |
+| \---> DONE Basisbegrippen                |        |      | 0:38 |
+| \---> DONE Voorwaardelijke kans en...    |        |      | 1:02 |
+| \-> STARTED Stochastische veranderlijken |        | 0:23 |      |
+| \---> DONE Inleiding en definities       |        |      | 0:23 |
+| Computer Networks [50%]                  |   1:58 |      |      |
+| \-> DONE Application layer               |        | 1:01 |      |
+| \-> STARTED Transport layer              |        | 0:57 |      |
 #+END: clocktable
 
 #+TODO: TODO STARTED | DONE
 
-* Kansrekenen [17%]
+* Kansrekenen [22%]
 ** DONE Kansruimten
 *** DONE Basisbegrippen
     CLOCK: [2016-05-27 Fre 14:52]--[2016-05-27 Fre 15:00] =>  0:08
@@ -24,8 +26,9 @@
     CLOCK: [2016-05-27 Fre 15:00]--[2016-05-27 Fre 15:32] =>  0:32
     CLOCK: [2016-05-26 Don 11:14]--[2016-05-26 Don 11:44] =>  0:30
 ** STARTED Stochastische veranderlijken
+*** DONE Inleiding en definities
+    CLOCK: [2016-05-27 Fre 17:17]--[2016-05-27 Fre 17:40] =>  0:23
 *** STARTED Types stochastische veranderlijken
-    CLOCK: [2016-05-27 Fre 17:17]
 *** TODO Momenten van een stochastische veranderlijke
 *** TODO Kentallen
 *** TODO Belangrijke verdelingen
