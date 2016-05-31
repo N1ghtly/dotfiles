@@ -1,25 +1,30 @@
 #+BEGIN: clocktable :maxlevel 3 :emphasize nil :scope file
-#+CAPTION: Clock summary at [2016-05-27 Fre 19:07]
-| Headline                                 |   Time |      |      |
-|------------------------------------------+--------+------+------|
-| *Total time*                             | *4:44* |      |      |
-|------------------------------------------+--------+------+------|
-| Kansrekenen [26%]                        |   2:46 |      |      |
-| \-> DONE Kansruimten                     |        | 2:15 |      |
-| \---> DONE Basisbegrippen                |        |      | 0:38 |
-| \---> DONE Voorwaardelijke kans en...    |        |      | 1:02 |
-| \---> STARTED Oefeningen                 |        |      | 0:35 |
-| \-> STARTED Stochastische veranderlijken |        | 0:23 |      |
-| \---> DONE Inleiding en definities       |        |      | 0:23 |
-| \-> DONE Combinatieleer                  |        | 0:08 |      |
-| Computer Networks [50%]                  |   1:58 |      |      |
-| \-> DONE Application layer               |        | 1:01 |      |
-| \-> STARTED Transport layer              |        | 0:57 |      |
+#+CAPTION: Clock summary at [2016-05-31 Die 22:27]
+| Headline                                      |   Time |      |      |
+|-----------------------------------------------+--------+------+------|
+| *Total time*                                  | *8:32* |      |      |
+|-----------------------------------------------+--------+------+------|
+| Kansrekenen [35%]                             |   5:27 |      |      |
+| \-> DONE Kansruimten                          |        | 2:23 |      |
+| \---> DONE Basisbegrippen                     |        |      | 0:38 |
+| \---> DONE Voorwaardelijke kans en...         |        |      | 1:02 |
+| \---> DONE Oefeningen                         |        |      | 0:35 |
+| \---> DONE Combinatieleer                     |        |      | 0:08 |
+| \-> STARTED Stochastische veranderlijken      |        | 3:04 |      |
+| \---> DONE Inleiding en definities            |        |      | 0:49 |
+| \---> DONE Types stochastische veranderlijken |        |      | 0:24 |
+| \---> STARTED Momenten van een...             |        |      | 0:50 |
+| \---> TODO Oefeningen                         |        |      | 1:01 |
+| Computer Networks [50%]                       |   1:58 |      |      |
+| \-> DONE Application layer                    |        | 1:01 |      |
+| \-> STARTED Transport layer                   |        | 0:57 |      |
+| Geschiedenis van de wetenschappen [0%]        |   1:07 |      |      |
+| \-> Cursus                                    |        | 1:07 |      |
 #+END: clocktable
 
 #+TODO: TODO STARTED | DONE
 
-* Kansrekenen [26%]
+* Kansrekenen [35%]
 ** DONE Kansruimten
 *** DONE Basisbegrippen
     CLOCK: [2016-05-27 Fre 14:52]--[2016-05-27 Fre 15:00] =>  0:08
@@ -27,16 +32,30 @@
 *** DONE Voorwaardelijke kans en onafhankelijkheid
     CLOCK: [2016-05-27 Fre 15:00]--[2016-05-27 Fre 15:32] =>  0:32
     CLOCK: [2016-05-26 Don 11:14]--[2016-05-26 Don 11:44] =>  0:30
-*** STARTED Oefeningen
+*** DONE Oefeningen
     CLOCK: [2016-05-27 Fre 18:32]--[2016-05-27 Fre 19:07] =>  0:35
+*** DONE Combinatieleer
+    CLOCK: [2016-05-27 Fre 18:23]--[2016-05-27 Fre 18:31] =>  0:08
 ** STARTED Stochastische veranderlijken
 *** DONE Inleiding en definities
+    CLOCK: [2016-05-31 Die 16:16]--[2016-05-31 Die 16:25] =>  0:09
+    CLOCK: [2016-05-29 Son 10:31]--[2016-05-29 Son 10:39] =>  0:08
+    CLOCK: [2016-05-28 Sam 12:35]--[2016-05-28 Sam 12:44] =>  0:09
     CLOCK: [2016-05-27 Fre 17:17]--[2016-05-27 Fre 17:40] =>  0:23
-*** STARTED Types stochastische veranderlijken
-*** TODO Momenten van een stochastische veranderlijke
+*** DONE Types stochastische veranderlijken
+    CLOCK: [2016-05-31 Die 16:25]--[2016-05-31 Die 16:29] =>  0:04
+    CLOCK: [2016-05-29 Son 10:39]--[2016-05-29 Son 10:46] =>  0:07
+    CLOCK: [2016-05-28 Sam 12:44]--[2016-05-28 Sam 12:57] =>  0:13
+*** STARTED Momenten van een stochastische veranderlijke"
+    CLOCK: [2016-05-31 Die 16:30]--[2016-05-31 Die 16:56] =>  0:26
+    CLOCK: [2016-05-29 Son 10:46]--[2016-05-29 Son 10:59] =>  0:13
+    CLOCK: [2016-05-28 Sam 12:57]--[2016-05-28 Sam 13:08] =>  0:11
 *** TODO Kentallen
 *** TODO Belangrijke verdelingen
 *** TODO Transformatie van stochastische veranderlijken
+*** STARTED Oefeningen
+    CLOCK: [2016-05-31 Die 17:42]--[2016-05-31 Die 17:58] =>  0:16
+    CLOCK: [2016-05-31 Die 16:56]--[2016-05-31 Die 17:41] =>  0:45
 ** TODO Bivariate verdelingen
 *** TODO Verdelin van een stochastisch koppel
 *** TODO Karakteristieken van een stochastisch koppel
@@ -44,8 +63,6 @@
 ** TODO Benaderingen van verdelingen
 *** TODO Limietstellingen
 *** TODO Praktische benaderingen
-** DONE Combinatieleer
-   CLOCK: [2016-05-27 Fre 18:23]--[2016-05-27 Fre 18:31] =>  0:08
 * Computer Networks [50%]
 ** DONE Application layer
    CLOCK: [2016-05-26 Don 17:14]--[2016-05-26 Don 18:15] =>  1:01
@@ -65,3 +82,5 @@
 
 * Geschiedenis van de wetenschappen [0%]
 ** Cursus
+   CLOCK: [2016-05-31 Die 21:20]--[2016-05-31 Die 22:27] =>  1:07
+
