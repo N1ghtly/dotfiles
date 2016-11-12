@@ -3,3 +3,4 @@ i3config|$HOME.config/i3/config
 .emacs|$HOME.emacs
 planning.org|$HOMEplanning.org
 i3status.conf|/etc/i3status.conf
+i3blocks.conf|$HOME.config/i3/i3blocks.conf
