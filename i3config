@@ -218,4 +218,5 @@ set $base00 #101218
   client.unfocused        $base02 $base02    $base03 $base0F
   client.urgent           $base02 $base08    $base00 $base0F
 
-exec always compton -f
+exec_always compton -bf -D 4
+
